@@ -1,0 +1,2 @@
+--182. Duplicate Emails
+select email from person as Email group by email having count(email) >1;
